@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover-container {
+    z-index: 2;
+    max-width: 60vw;
+    position: relative;
+}
+
+#bgVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color: white;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+    color: #333;
+    text-shadow: none;
+}
+
+.cover-container {
+    z-index: 2;
+    max-width: 85vw;
+    position: relative;
+    min-height: 70vh;
+    padding: 2rem;
+}
