@@ -71,7 +71,9 @@ const styleSrcUrls = [
 const connectSrcUrls = [
     "https://api.maptiler.com/",
 ];
-const fontSrcUrls = [];
+const fontSrcUrls = [
+    "https://fonts.gstatic.com",
+];
 const mediaSrcUrls = [
     "https://static.vecteezy.com/"
 ];

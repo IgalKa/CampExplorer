@@ -3,7 +3,15 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb://localhost:27017/isra-camp');
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
+
+
+mongoose.connect(process.env.DB_URL || 'mongodb://localhost:27017/isra-camp', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 
 const db = mongoose.connection;
 
@@ -45,7 +53,7 @@ const seedDB = async () => {
                     cities[random1000].coordinates.lat
                 ],
             },
-            author: '66fe73489bf1de52366e1c83',
+            author: '670d42dab40541238cc9c272',
         })
         await camp.save();
     }
