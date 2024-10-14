@@ -59,3 +59,13 @@ body {
     min-height: 70vh;
     padding: 2rem;
 }
+
+h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.25rem;
+}

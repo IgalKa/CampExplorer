@@ -73,6 +73,7 @@ const connectSrcUrls = [
 ];
 const fontSrcUrls = [
     "https://fonts.gstatic.com",
+    "https://fonts.googleapis.com",
 ];
 const mediaSrcUrls = [
     "https://static.vecteezy.com/"
