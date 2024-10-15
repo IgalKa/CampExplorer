@@ -12,7 +12,8 @@ Campexplorer is a web application designed to help users discover,explore and sh
 - **Campground Reviews** – Users can leave reviews for campgrounds.
 - **User Authentication and Authorization** – Secure login and registration functionality, with authorized access for managing campgrounds and reviews.
 
-**Website live demo:** [https://campexplorer-1z09.onrender.com](https://campexplorer-1z09.onrender.com) (Please note: it may take a moment to load)
+**Website live demo:** [https://campexplorer-1z09.onrender.com](https://campexplorer-1z09.onrender.com) (Please note: it may take a moment to load)  
+
 Developed as part of "The Web Developer Bootcamp 2024" on Udemy
 
 ![Home Screen](https://github.com/IgalKa/CampExplorer/blob/main/images/CampExplorer%20Home.png)
