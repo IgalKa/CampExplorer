@@ -13,6 +13,12 @@ Campexplorer is a web application designed to help users discover,explore and sh
 - **User Authentication and Authorization** – Secure login and registration functionality, with authorized access for managing campgrounds and reviews.
 
 **Website live demo:** [https://campexplorer-1z09.onrender.com](https://campexplorer-1z09.onrender.com) (Please note: it may take a moment to load)
+Developed as part of "The Web Developer Bootcamp 2024" on Udemy
+
+![Home Screen](https://github.com/IgalKa/CampExplorer/blob/main/images/CampExplorer%20Home.png)
+![Campgrounds](https://github.com/IgalKa/CampExplorer/blob/main/images/Campgrounds.png)
+![Single Campground](https://github.com/IgalKa/CampExplorer/blob/main/images/Single%20camp.png)
+![Forms](https://github.com/IgalKa/CampExplorer/blob/main/images/forms.png)
 
 
 
